@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="59px" viewBox="0 0 229 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-3.000000, -10.000000)" fill="#000000">
+            <text id="Кавосемь" font-family="MuseoSansCyrl-900, Museo Sans Cyrl" font-size="48" font-weight="bold">
+                <tspan x="0" y="45">Кавосемь</tspan>
+            </text>
+            <text id="Разработка-отрослевы" font-family="MuseoSansCyrl-300, Museo Sans Cyrl" font-size="14" font-weight="300">
+                <tspan x="2" y="66">Разработка отрослевых решений</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

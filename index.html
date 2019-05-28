@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+		<meta charset="utf-8">
+		
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/MuseoSans.css">
+    <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="shortcut icon" type="image/png" href="img/fav.png"/>
+
+    <title>Клиенты за процент</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter50796652 = new Ya.Metrika2({
+                        id:50796652,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/50796652" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+
+  <body>
+ 	
+			<div class="main">
+				<div class="main-line" id="line"></div>
+				<div class="container">
+					<div class="row align-items-md-center">
+						<!-- <div class="main-table"> -->
+							<div class="col-12 col-md-6">
+								<img src="img/main/image.svg" alt="Логотип" class="main-logo">
+							</div>
+						<!-- </div> -->
+						<div class="col-12 col-md-6 alighn-self-md-start">
+							<div class="main-contacts">
+								<div class="main-contact">
+									<p class="main-contact__phone">8-800-505-40-39</p>
+									<p class="main-contact__addres">Звонок по РФ</p>
+								</div>
+								<div class="main-contact">
+									<p class="main-contact__phone">+7 (343) 226-05-22</p>
+									<p class="main-contact__addres">Екатеринбург</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-auto col-lg-12 col-xl-7 offset-md-1">
+							<div class="main-center">
+								<h1 class="main-center__title wow fadeInRight">Приведем клиентов<br>
+								за процент от сделки!</h1>
+								<!-- /.main-center__title -->
+								<p class="main-center__subtitle wow fadeInRight" data-wow-delay="0.1s">Вы оплачиваете только бюджет контекстной рекламы	и некоторые административные расходы<br>
+								Посадочные страницы, рекламные кампании и прочую инфрастуктуру, мы делаем за свой счет.</p>
+								<!-- /.main-center__subtitle -->
+								<div class="main-center__click wow fadeInRight" data-wow-delay="0.2s">
+									<button onclick="yaCounter50796652.reachGoal('start');" type="button" class="main-center__btn button">Пройти опрос</button>
+									<div class="main-center__answer">Ответьте на 6 вопросов и узнайте<br> подойдет ли вам такой формат работы</div>
+									<!-- /.main-center-answer -->
+								</div>
+								<!-- /.main-center__click -->
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-xl-12">
+							<div class="main-footer">
+								<div class="main-footer__descr">
+									<span class="main-footer__left">ИНН: 561211294748</span>
+									<span class="main-footer__subtitle">Политика конфидециальности</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.result -->
+
+
+			<form id="myForm" method="post">
+				<div class="overlay wow fadeIn" data-wow-duration="0.5s">
+					<div class="main-line" id="line2"></div>
+					<div class="step1 step">
+						<div class="contaiter">
+							<div class="row justify-content-md-bettween align-items-center">
+								<div class="step-left step1-left order-12 order-md-0">
+									<div class="col-12 col-md-auto">
+										<div class="step-left__title step1-left__title wow fadeInRight" data-wow-duration="1s">Что вы продаете?</div>
+										<div class="step-left__subtitle step1-left__subtitle wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+											Маркетинг товаров и услуг значительно отличается
+										</div>
+										<div class="step-left__answers step1-left__answers wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step1-left__answer" >
+												<input type="radio" name='type' id="first"  value="Товары">
+												<label class="text-container" for="first" >
+													<span class="step1-left__btn button-ans" data-id="1">Товары</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step1-left__answer">
+												<input type="radio" name='type' id="second" value="Услуги">
+												<label class="text-container" for="second">
+													<span class="step1-left__btn button-ans" data-id="2">Услуги</span>	
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /.step-left -->
+								<div class="step-right">
+									<div class="step-right__descr wow zoomIn" data-wow-duration="1s" data-wow-delay="0s">
+										<div class="col-12 col-md-auto order-0 order-md-12">
+											<div class="step-right__step">
+												1 из 6 вопросов
+											</div>
+											<div class="step-right__text">
+												Маркетинг товаров и услуг отличается,<br> нам необходимо знать это
+											</div>
+											<div class="step-right__persent">
+												+25%
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- ./step1-right -->
+							</div>
+							<!-- ./row -->
+						</div>
+						<!-- /.container -->
+					</div>
+					<!-- ./step1 -->
+     
+    	<div class="step2 step">
+    		<div class="contaiter">
+    			<div class="row justify-content-md-between align-items-center">
+    				<div class="step-left step2-left order-12 order-md-0">
+    					<div class="col-12 col-md-auto order-last">
+    						<div class="step-left__title step2-left__title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">Какой у вас средний чек?</div>
+    						<div class="step-left__subtitle step2-left__subtitle wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+    							Интернет маркетинг подрузамевает траты<br> на контекстную рекламу
+    						</div>
+    						<div class="step-left__answers step2-left__answers wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+    							<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step2-left__answer" >
+    								<input type="radio" name='check' id="checkFirst"  value="До 10 000">
+    								<label class="text-container" for="checkFirst" >
+    									<span class="step2-left__btn button-ans" data-id="1">До 10 000</span>	
+    								</label>
+    							</div>
+    							<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step2-left__answer">
+    								<input type="radio" name='check' id="checkSecond" value="До 30 000">
+    								<label class="text-container" for="checkSecond">
+    									<span class="step2-left__btn button-ans" data-id="2">До 30 000</span>	
+    								</label>
+    							</div>
+    							<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step2-left__answer" >
+    								<input type="radio" name='check' id="checkThird"  value="До 50 000">
+    								<label class="text-container" for="checkThird" >
+    									<span class="step2-left__btn button-ans" data-id="3">До 50 000</span>	
+    								</label>
+    							</div>
+    							<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step2-left__answer" >
+    								<input type="radio" name='check' id="checkFourth"  value="Более 50 000">
+    								<label class="text-container" for="checkFourth" >
+    									<span class="step2-left__btn button-ans" data-id="4">Более 50 000</span>	
+    								</label>
+    							</div>
+    						</div>
+    						<!-- /.step2-left__answers -->
+    					</div>
+    				</div>
+    				<!-- /.step-left -->
+    				<div class="step-right">
+    					<div class="step-right__descr wow zoomIn" data-wow-duration="1.2s" data-wow-delay="0s">
+    						<div class="col-12">
+    							<div class="step-right__step">
+    								2 из 6 вопросов
+    							</div>
+    							<div class="step-right__text">
+    								Интернет маркетинг подрузамевает траты
+    								на контекстную рекламу
+    							</div>
+    							<div class="step-right__persent">
+    								+25%
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    				<!-- ./step1-right -->
+    			</div>
+    			<!-- ./row -->
+    		</div>
+    		<!-- /.container -->
+    	</div>
+    	<!-- ./step2 -->
+
+    	<div class="step3 step">
+    		<div class="contaiter">
+    			<div class="row justify-content-md-between align-items-center">
+    				<div class="step-left step3-left order-12 order-md-0">
+    					<div class="col-12 col-md-auto">
+    						<div class="step-left__title step3-left__title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">Используете ли вы<br> контекстную рекламу</div>
+    						<div class="step-left__subtitle step3-left__subtitle wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+    							Имеет ли ваш отдел продаж опыт работы с лидами?
+    						</div>
+    						<div class="step-left__answers step3-left__answers wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+    							<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step3-left__answer" >
+    								<input type="radio" name='marketing' id="marketingFirst"  value="Да">
+    								<label class="text-container" for="marketingFirst" >
+    									<span class="step3-left__btn button-ans" data-id="1">Да</span>	
+    								</label>
+    							</div>
+    							<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step3-left__answer">
+    								<input type="radio" name='marketing' id="marketingSecond" value="Нет">
+    								<label class="text-container" for="marketingSecond">
+    									<span class="step3-left__btn button-ans" data-id="2">Нет</span>	
+    								</label>
+    							</div>
+    						</div>
+    						<!-- /.step3-left__answers -->
+    					</div>
+    				</div>
+    				<!-- /.step-left -->
+    				<div class="step-right  order-0 order-md-12">
+    					<div class="step-right__descr wow zoomIn" data-wow-duration="1.2s" data-wow-delay="0s">
+    						<div class="col-12 col-lg-auto">
+    							<div class="step-right__step ">
+    								3 из 6 вопросов
+    							</div>
+    							<div class="step-right__text">
+    								Если ваш отдел продаж не имеет опыта продаж с лидов,
+    								значит нам придется разрабатывать вам скрипты
+    							</div>
+    							<div class="step-right__persent">
+    								+25%
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    				<!-- ./step1-right -->
+    			</div>
+    			<!-- ./row -->
+    		</div>
+    		<!-- /.container -->
+    	</div>
+    	<!-- ./step3 -->
+
+					<div class="step4 step">
+						<div class="contaiter">
+							<div class="row justify-content-md-between align-items-center">
+								<div class="step-left step4-left order-12 order-md-0">
+									<div class="col-12 col-md-auto ">
+										<div class="step-left__title step4-left__title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">Сколько новых обращений<br> вы получаете сейчас?</div>
+										<div class="step-left__subtitle step4-left__subtitle wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+											Какова загрузка вашего отдела продаж?
+										</div>
+										<div class="step-left__answers step4-left__answers wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step4-left__answer" >
+												<input type="radio" name='recourse' id="recourseFirst"  value="До 5">
+												<label class="text-container" for="recourseFirst" >
+													<span class="step4-left__btn button-ans" data-id="1">До 5</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step4-left__answer">
+												<input type="radio" name='recourse' id="recourseSecond" value="До 10">
+												<label class="text-container" for="recourseSecond">
+													<span class="step4-left__btn button-ans" data-id="2">До 10</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step4-left__answer">
+												<input type="radio" name='recourse' id="recourseThird" value="До 15">
+												<label class="text-container" for="recourseThird">
+													<span class="step4-left__btn button-ans" data-id="3">До 15</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step4-left__answer">
+												<input type="radio" name='recourse' id="recourseFourth" value="Более 15">
+												<label class="text-container" for="recourseFourth">
+													<span class="step4-left__btn button-ans button-ans__small" data-id="4">Более 15</span>	
+												</label>
+											</div>
+										</div>
+										<!-- /.step3-left__answers -->
+									</div>
+								</div>
+								<!-- /.step-left -->
+								<div class="step-right order-0 order-md-12">
+									<div class="step-right__descr wow zoomIn" data-wow-duration="1.2s" data-wow-delay="0s">
+										<div class="col-12 col-lg-auto ">
+											<div class="step-right__step">
+												4 из 6 вопросов
+											</div>
+											<div class="step-right__text">
+												Позволит ли загруженность отдела продаж, принимать новые обращения
+											</div>
+											<div class="step-right__persent">
+												+25%
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- ./step1-right -->
+							</div>
+							<!-- ./row -->
+						</div>
+						<!-- /.container -->
+					</div>
+					<!-- ./step4 -->
+
+					<div class="step5 step">
+						<div class="contaiter">
+							<div class="row justify-content-md-between align-items-center">
+								<div class="step-left step5-left order-12 order-md-0">
+									<div class="col-12 col-md-auto ">
+										<div class="step-left__title step5-left__title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">Сколько новых обращеный<br> вы сможете обработать?</div>
+										<div class="step-left__subtitle step5-left__subtitle wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+											Сколько заявок отдел продаж обработает без потери качества?
+										</div>
+										<div class="step-left__answers step5-left__answers wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step5-left__answer" >
+												<input type="radio" name='recourse1' id="recourse1First"  value="До 5">
+												<label class="text-container" for="recourse1First" >
+													<span class="step5-left__btn button-ans" data-id="1">До 5</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step5-left__answer">
+												<input type="radio" name='recourse1' id="recourse1Second" value="До 10">
+												<label class="text-container" for="recourse1Second">
+													<span class="step5-left__btn button-ans" data-id="2">До 10</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step5-left__answer">
+												<input type="radio" name='recourse1' id="recourse1Third" value="До 15">
+												<label class="text-container" for="recourse1Third">
+													<span class="step5-left__btn button-ans" data-id="3">До 15</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step5-left__answer">
+												<input type="radio" name='recourse1' id="recourse1Fourth" value="Более 15">
+												<label class="text-container" for="recourse1Fourth">
+													<span class="step5-left__btn button-ans button-ans__small" data-id="4">Более 15</span>	
+												</label>
+											</div>
+										</div>
+										<!-- /.step3-left__answers -->
+									</div>
+								</div>
+								<!-- /.step-left -->
+								<div class="step-right order-0 order-md-12">
+									<div class="step-right__descr wow zoomIn" data-wow-duration="1.2s" data-wow-delay="0s">
+										<div class="col-12 col-md-auto ">
+											<div class="step-right__step">
+												5 из 6 вопросов
+											</div>
+											<div class="step-right__text">
+												Позволит ли загруженность отдела продаж, принимать новые обращения
+											</div>
+											<div class="step-right__persent">
+												+25%
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- ./step1-right -->
+							</div>
+							<!-- ./row -->
+						</div>
+						<!-- /.container -->
+					</div>
+					<!-- ./step5 -->
+
+					<div class="step6 step">
+						<div class="contaiter">
+							<div class="row justify-content-md-between align-items-center">
+								<div class="step-left step6-left order-12 order-md-0">
+									<div class="col-12 col-md-auto">
+										<div class="step-left__title step6-left__title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">Какая конверсия вашего<br> отдела продаж</div>
+										<div class="step-left__subtitle step6-left__subtitle wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+											Из 100 обращений от потенциальных клиентов,<br>	сколько в среднем заканчивается продажей?
+										</div>
+										<div class="step-left__answers step6-left__answers wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step6-left__answer" >
+												<input type="radio" name='recourse2' id="recourse2First" value="До 5">
+												<label class="text-container" for="recourse2First">
+													<span class="step6-left__btn button-ans">До 5</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step6-left__answer">
+												<input type="radio" name='recourse2' id="recourse2Second" value="До 10">
+												<label class="text-container" for="recourse2Second">
+													<span class="step6-left__btn button-ans">До 10</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step6-left__answer">
+												<input type="radio" name='recourse2' id="recourse2Third" value="До 15">
+												<label class="text-container" for="recourse2Third">
+													<span class="step6-left__btn button-ans">До 15</span>	
+												</label>
+											</div>
+											<div onclick="yaCounter50796652.reachGoal('checkAnswer');" class="step-left__answer step6-left__answer">
+												<input type="radio" name='recourse2' id="recourse2Fourth" value="Более 15">
+												<label class="text-container" for="recourse2Fourth">
+													<span class="step6-left__btn button-ans button-ans__small">Более 15</span>	
+												</label>
+											</div>
+										</div>
+										<!-- /.step3-left__answers -->
+									</div>
+								</div>
+								<!-- /.step-left -->
+								<div class="step-right">
+									<div class="step-right__descr wow zoomIn" data-wow-duration="1.2s" data-wow-delay="0s">
+										<div class="col-12 col-md-auto order-0 order-md-12">
+											<div class="step-right__step">
+												6 из 6 вопросов
+											</div>
+											<div class="step-right__text">
+												Из 100 обращений от потенциальных клиентов,	сколько в среднем заканчивается продажей?
+											</div>
+											<div class="step-right__persent">
+												+25%
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- ./step1-right -->
+							</div>
+							<!-- ./row -->
+						</div>
+						<!-- /.container -->
+					</div>
+					<!-- ./step6 -->
+				</div>
+				<!-- /.overlay -->
+				<div class="notworkOverlay">
+					<div class="notwork">
+						<div class="container">
+							<div class="row justify-content-center align-items-center">
+								<div class="col-lg-3">
+									<div class="notwork-left"></div>
+								</div>
+								<!-- /.col-lg-3 -->
+								<div class="col-lg-7">
+									<div class="notwork-right">
+										<div class="notwork-right__title">К сожалению рабочий день уже закончен</div>										
+										<div class="notwork-right__subtitle">(с 10 до 19 по МСК) Мы позвоним вам в 11 часов по МСК<br> Или укажите в какое время вам позвонить.</div>
+										<div class="notwork-right__btns">
+											<div class="notwork-right__choose notwork-right__btn button button-big" data-id="1">
+												Укажите время звонка<span class="arrow"></span>
+											</div>
+											<button type="button" class="notwork-right__btn button" id="notworkBtn" data-id="2">Отправить</button>
+										</div>
+										<div class="notwork-right__times">
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time1" value="10:00-11:00">
+												<label class="text-container" for="time1">
+													<span class="notwork-time__btn button-ans button-ans__small">10:00-11:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time2" value="11:00-12:00">
+												<label class="text-container" for="time2">
+													<span class="notwork-time__btn button-ans button-ans__small">11:00-12:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time3" value="12:00-13:00">
+												<label class="text-container" for="time3">
+													<span class="notwork-time__btn button-ans button-ans__small">12:00-13:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time4" value="13:00-14:00">
+												<label class="text-container" for="time4">
+													<span class="notwork-time__btn button-ans button-ans__small">13:00-14:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time5" value="14:00-15:00">
+												<label class="text-container" for="time5">
+													<span class="notwork-time__btn button-ans button-ans__small">14:00-15:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time6" value="15:00-16:00">
+												<label class="text-container" for="time6">
+													<span class="notwork-time__btn button-ans button-ans__small">15:00-16:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time7" value="16:00-17:00">
+												<label class="text-container" for="time7">
+													<span class="notwork-time__btn button-ans button-ans__small">16:00-17:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time8" value="17:00-18:00">
+												<label class="text-container" for="time8">
+													<span class="notwork-time__btn button-ans button-ans__small">17:00-18:00</span>
+												</label>
+											</div>
+											<div class="notwork-right__time">
+												<input type="radio" name='time' id="time9" value="18:00-19:00">
+												<label class="text-container" for="time9">
+													<span class="notwork-time__btn button-ans button-ans__small">18:00-19:00</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /.col-lg-7 -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.notworkOverlay -->
+
+				<div class="result">
+					<div class="main-line" id="line1"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-6 ">
+								<img src="img/main/logo.png" alt="Логотип" class="main-logo">
+							</div>
+							
+							<div class="col-12 col-md-6 alighn-self-md-start">
+								<div class="main-contacts no-mobile">
+									<div class="main-contact">
+										<p class="main-contact__phone">8-800-505-40-39</p>
+										<p class="main-contact__addres">Звонок по РФ</p>
+									</div>
+									<div class="main-contact">
+										<p class="main-contact__phone">+7 (343) 226-05-22</p>
+										<p class="main-contact__addres">Екатеринбург</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-md-auto col-lg-12 col-xl-7 offset-md-1 offset-lg-0">
+								<div class="result-center">
+									<p class="result-center__title wow fadeInRight" data-wow-duration="1s" data-wow-delay="0s">Благодарим за ответы</p>
+									<!-- /.result-center__title -->
+									<p class="result-center__subtitle wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">Судя по всему вашей компании подойдет такой формат работы, но есть несколько нюансов которые необходимо обсуждать лично.<br> Мы готовы делать посадочные страницы, настраивать рекламу и внедрять маркетинговые инструменты за свой счет и зарабатывать, только проценты с продаж. Не нужно оплачивать маркетологов, дизайнеров, верстальщиков, программистов, копирайтеров, директологов и прочих специалистов.</p>
+									<!-- /.result-center__subtitle -->
+									<p class="result-center__offer wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">Наш специалист перезвонит вам в течение 30 секунд (в рабочее время)<br> а в открывшемся окне вы сможете почитать о нас более подробно.</p>
+									<p class="result-center__call wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">Оставьте номер телефона</p>
+									<div class="result-center__form wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+										<img src="img/result/phone.png" alt="иконка телефона">
+										<input type="tel" name="tel" id="tel" required placeholder="Ваш номер">
+										<button onclick="yaCounter50796652.reachGoal('result');" class="result-center__btn button button-disabled" value="Отправить" id="submit" type="submit">Отправить</button>
+									</div>
+									<!-- /.result-center__form -->
+									<div class="result-center__small">
+										Консультация не к чему вас не обязывает, вы можете отказаться<br class="no-mobile"> от нашего предложения в любой момент
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-xl-12">
+								<div class="result-footer">
+									<div class="result-footer__descr">
+										<span class="result-footer__left">ИНН: 561211294748</span>
+										<span class="result-footer__subtitle">Политика конфидециальности</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.result -->
+			</form>
+			<!-- /.form -->
+								
+			<div class="overlayThanks wow fadeIn" data-wow-duration="0.5s">
+				<div class="thanks" id="thanks">
+						<div class="container">
+							<div class="row justify-content-center
+							align-items-center">
+								<div class="col-12 col-lg-10">
+									<div class="thanks-content">
+										<div class="thanks-content__close result-content__close">&times;</div>
+										<div class="thanks-content__title">Благодарим Вас!</div>
+										<div class="thanks-content__subtitle">Наш менеджер свяжется с вами в ближайшее время<br>
+										А пока вы можете ознакомиться с нашим сайтом</div>
+										<div class="thanks-content__btns">
+											<a onclick="yaCounter50796652.reachGoal('land');" href="http://k8d.ru/kzp_land/" class="thanks-content__btn button" id="Site">Посмотреть сайт</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.thanks -->
+			</div>
+			<!-- /.overlayThanks -->
+
+
+			<div class="popupOverlay wow fadeIn" data-wow-duration="0.5s">
+				<div class="popup" id="popup">
+					<div class="container">
+						<div class="row justify-content-center
+						align-items-center">
+							<div class="col-lg-10">
+								<div class="popup-content">
+									<div class="popup-content__close">&times;</div>
+									<div class="popup-content__title">Не хотите отвечать на вопросы?</div>
+									<div class="popup-content__subtitle">Тогда почитайте на сайте, предложение ведь интересное?<br> Иначе зачем вы на рекламу кликали.?</div>
+									<div class="popup-content__btns">
+										<a href="https://k8d.ru/kzp_land/" type="button" class="popup-content__btn button" id="Site" data-id="1" target="_blank">Посмотреть сайт</a>
+										<button type="button" class="popup-content__btn button" id="Quiz" data-id="2">Продолжить опрос</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.popup -->
+				<div class="popup" id="popup1">
+					<div class="container">
+						<div class="row justify-content-center
+						align-items-center">
+							<div class="col-lg-10">
+								<div class="popup-content">
+									<div class="popup-content__close">&times;</div>
+									<div class="popup-content__title">Не хотите оставлять номер?</div>
+									<div class="popup-content__subtitle">Тогда почитайте на сайте, предложение ведь интересное?<br> Иначе зачем вы на рекламу кликали.?</div>
+									<div class="popup-content__btns">
+										<a href="http://k8d.ru/kzp_land/" type="button" class="popup-content__btn button" id="Site" data-id="1" target="_blank">Посмотреть сайт</a>
+										<button type="button" class="popup-content__btn button" id="sendTel" data-id="2">Оставить телефон</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.popup1 -->
+				<div class="popup" id="popup2">
+					<div class="container">
+						<div class="row justify-content-center
+						align-items-center">
+							<div class="col-lg-10">
+								<div class="popup-content">
+									<div class="popup-content__close">&times;</div>
+									<div class="popup-content__title">Не хотите отвечать на вопросы?</div>
+									<div class="popup-content__subtitle">Тогда почитайте на сайте, предложение ведь интересное?<br> Иначе зачем вы на рекламу кликали.?</div>
+									<div class="popup-content__btns">
+										<a href="http://k8d.ru/kzp_land/" type="button" class="popup-content__btn button" id="Site" data-id="1" target="_blank">Посмотреть сайт</a>
+										<button type="button" class="popup-content__btn button" id="Quiz" data-id="2">Продолжить опрос</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.popup2 -->
+			</div>
+			<!-- /.popupOverlay -->
+				
+   <script src="scripts/jquery-3.3.1.min.js" ></script>
+   <script src="scripts/jquery.maskedinput.min.js"></script>
+   <script src="scripts/wow.min.js"></script>
+	 <script src="scripts/scripts.js"></script>
+	 
+   <script> new WOW().init(); </script>
+			<script>
+			$(document).ready(function() {
+
+				$("#submit").on('click', function() { 
+				  var th = $('form').serialize();
+				  $.ajax({
+				    type: "POST",
+				    url: "send.php", 
+				    data: th
+				  }).done(function() {
+				    $('.overlayThanks').show();
+				  });
+				  return false;
+				});
+
+			});
+			</script>
+  </body>
+</html>
